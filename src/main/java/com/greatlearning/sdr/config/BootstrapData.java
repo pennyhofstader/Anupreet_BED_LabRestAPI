@@ -53,7 +53,6 @@ public class BootstrapData {
 
 		khushi.addRole(userRole);
 
-		anu.addRole(userRole);
 		anu.addRole(adminRole);
 
 		this.userRepo.save(khushi);
