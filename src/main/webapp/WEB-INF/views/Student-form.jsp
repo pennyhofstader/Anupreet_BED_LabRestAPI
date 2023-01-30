@@ -64,7 +64,7 @@
 		</form>
 
 		<hr>
-		<a href="/StudentManagement/student/list">Back to Students List</a>
+		<a href="/StudentManagement/student/list">Go to Students List</a>
 
 	</div>
 </body>
