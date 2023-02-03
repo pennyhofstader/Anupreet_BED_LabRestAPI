@@ -27,7 +27,7 @@ public class BootstrapData {
 	// data for student table
 	@EventListener(ApplicationReadyEvent.class)
 	@Transactional
-	public void initializeData(ApplicationReadyEvent readyEvent) {
+	public void studentData(ApplicationReadyEvent readyEvent) {
 
 		Student s1 = new Student("Suresh", "Reddy", "B.Tech", "India");
 		Student s2 = new Student("Marali", "Mohan", "B.Arch", "Canada");
@@ -43,7 +43,7 @@ public class BootstrapData {
 	// data for users and roles
 	@EventListener(ApplicationReadyEvent.class)
 	@Transactional
-	public void initializeUsersData(ApplicationReadyEvent readyEvent) {
+	public void usersData(ApplicationReadyEvent readyEvent) {
 
 		User khushi = new User("khushi", passwordEncoder.encode("khushi"));
 		User anu = new User("anu", passwordEncoder.encode("anu"));
