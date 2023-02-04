@@ -33,16 +33,14 @@
 
 		<h3>List Of Students</h3>
 		<hr>
-		<!-- Add a search form -->
-
-		<form action="/StudentManagement/books/search" class="form-inline">
-
-			<!-- Add a button -->
-			<a href="/StudentManagement/student/showFormForAdd"
-				class="btn btn-primary btn-sm mb-3"> Add Student </a>
 
 
-		</form>
+		<!-- Add a button -->
+		<a href="/StudentManagement/student/showFormForAdd"
+			class="btn btn-primary btn-sm mb-3"> Add Student </a>
+
+
+
 
 		<table class="table table-bordered table-striped">
 			<thead class="thead-dark">
